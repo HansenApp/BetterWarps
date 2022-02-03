@@ -1,6 +1,6 @@
 <?php
 
-namespace Electro\BetterWarps;
+namespace HansenKhi\BetterWarps;
 
 use dktapps\pmforms\CustomForm;
 use dktapps\pmforms\element\Input;
