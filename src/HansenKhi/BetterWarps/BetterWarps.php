@@ -113,7 +113,7 @@ class BetterWarps extends PluginBase implements Listener{
         return true;
     }
 
-    public function warpCreationForm() : CustomForm{
+    function warpCreationForm() : CustomForm{
         return new CustomForm(
             "§lCreate a Warp",
             [
