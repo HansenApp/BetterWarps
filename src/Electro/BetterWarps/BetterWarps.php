@@ -94,7 +94,7 @@ class BetterWarps extends PluginBase implements Listener{
             switch($cmd->getName())
             {
                 case "warp":
-                    swtich($args[0]) {
+                    switch($args[0]) {
                         case strtolower($warp["Name"]):
                             if (!$this->getServer()->getWorldManager()->isWorldGenerated($warp["Level"]))
                             {
