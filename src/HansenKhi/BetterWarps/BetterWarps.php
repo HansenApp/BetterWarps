@@ -191,7 +191,7 @@ class BetterWarps extends PluginBase implements Listener{
         );
     }
 
-    public function registerWarp($name, $permission, $description = "", $usage = "", $opRequiresPerms = false)
+    function registerWarp($name, $permission, $description = "", $usage = "", $opRequiresPerms = false)
     {
         if ($permission != "betterwarps.warp")
         {
