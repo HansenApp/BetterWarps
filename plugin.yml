@@ -1,8 +1,8 @@
 name: BetterWarps
 version: 1.0.0
-main: Electro\BetterWarps\BetterWarps
+main: HansenKhi\BetterWarps\BetterWarps
 api: 4.0.0
-author: Electro
+author: HansenKhi
 
 commands:
   warp:
