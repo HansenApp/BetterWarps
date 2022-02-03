@@ -225,5 +225,4 @@ class BetterWarps extends PluginBase implements Listener{
         }
         $this->getServer()->getCommandMap()->unregister($this->getCommand(strtolower($name)));
     }
-
 }
