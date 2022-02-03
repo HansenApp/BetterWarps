@@ -9,6 +9,10 @@ commands:
     usage: /warp <create/remove>
     description: Create/Remove a Warp
     permission: betterwarps.cmd
+  to:
+    usage: /to <Warp Name>
+    description: Teleport to warp
+    permission: betterwarps.warp
 
 permissions:
   betterwarps.cmd:
