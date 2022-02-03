@@ -113,7 +113,7 @@ class BetterWarps extends PluginBase implements Listener{
         return true;
     }
 
-    private function warpCreationForm() : CustomForm{
+    public function warpCreationForm() : CustomForm{
         return new CustomForm(
             "§lCreate a Warp",
             [
@@ -162,7 +162,7 @@ class BetterWarps extends PluginBase implements Listener{
         );
     }
 
-    private function warpRemoveForm() : CustomForm{
+    public function warpRemoveForm() : CustomForm{
         $warps = new Config($this->getDataFolder() . "Warps.yml", Config::YAML);
         $list = [];
         foreach ($warps->getAll() as $warp)
