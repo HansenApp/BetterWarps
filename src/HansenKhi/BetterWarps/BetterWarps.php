@@ -162,7 +162,7 @@ class BetterWarps extends PluginBase implements Listener{
         );
     }
 
-    public function warpRemoveForm() : CustomForm{
+    function warpRemoveForm() : CustomForm{
         $warps = new Config($this->getDataFolder() . "Warps.yml", Config::YAML);
         $list = [];
         foreach ($warps->getAll() as $warp)
